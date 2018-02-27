@@ -3,5 +3,7 @@
 <p><%= @person.hair_color %><p>
 <p><%= @person.eye_color %><p>
 <p><%= @person.gender %><p>
-<p><%= @person.alive %><p>
+<p><%= @person.alive = true ? 'Alive' : "Super Dead" %>
+<br>
+<br>
 <%= link_to 'Back', people_path %>
